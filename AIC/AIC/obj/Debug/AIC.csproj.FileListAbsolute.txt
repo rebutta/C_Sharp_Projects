@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\AIC\AIC\obj\Debug\AIC.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\AIC\AIC\obj\Debug\AIC.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\AIC\AIC\bin\Debug\AIC.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\AIC\AIC\bin\Debug\AIC.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\AIC\AIC\bin\Debug\AIC.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\AIC\AIC\obj\Debug\AIC.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\AIC\AIC\obj\Debug\AIC.pdb
