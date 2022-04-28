@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\BooleanInsurance\BooleanInsurance\bin\Debug\BooleanInsurance.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\BooleanInsurance\BooleanInsurance\bin\Debug\BooleanInsurance.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\BooleanInsurance\BooleanInsurance\bin\Debug\BooleanInsurance.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\BooleanInsurance\BooleanInsurance\obj\Debug\BooleanInsurance.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\BooleanInsurance\BooleanInsurance\obj\Debug\BooleanInsurance.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\BooleanInsurance\BooleanInsurance\obj\Debug\BooleanInsurance.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\BooleanInsurance\BooleanInsurance\obj\Debug\BooleanInsurance.pdb
