@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\GuessMySign\GuessMySign\bin\Debug\GuessMySign.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\GuessMySign\GuessMySign\bin\Debug\GuessMySign.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\GuessMySign\GuessMySign\bin\Debug\GuessMySign.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\GuessMySign\GuessMySign\obj\Debug\GuessMySign.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\GuessMySign\GuessMySign\obj\Debug\GuessMySign.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\GuessMySign\GuessMySign\obj\Debug\GuessMySign.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\GuessMySign\GuessMySign\obj\Debug\GuessMySign.pdb
