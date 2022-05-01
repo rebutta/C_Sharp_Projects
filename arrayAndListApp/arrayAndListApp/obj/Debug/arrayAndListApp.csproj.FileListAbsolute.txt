@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\arrayAndListApp\arrayAndListApp\obj\Debug\arrayAndListApp.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\arrayAndListApp\arrayAndListApp\obj\Debug\arrayAndListApp.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\arrayAndListApp\arrayAndListApp\bin\Debug\arrayAndListApp.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\arrayAndListApp\arrayAndListApp\bin\Debug\arrayAndListApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\arrayAndListApp\arrayAndListApp\bin\Debug\arrayAndListApp.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\arrayAndListApp\arrayAndListApp\obj\Debug\arrayAndListApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\arrayAndListApp\arrayAndListApp\obj\Debug\arrayAndListApp.pdb
