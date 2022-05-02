@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace exceptionHandling
 {
@@ -6,15 +7,19 @@ namespace exceptionHandling
     {
         static void Main(string[] args)
         {
-            try 
+
+            try
             {
-                Console.WriteLine("Pick a number."); // first line asks user to pick a number (int)
+                Console.WriteLine("Pick a number to divide the list by."); // first line asks user to pick a number (int)
                 int numberOne = Convert.ToInt32(Console.ReadLine()); // converts user entered string to int
-                Console.WriteLine("Pick a second number.");
-                int numberTwo = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Dividing the two...");
-                int numberThree = numberOne / numberTwo; // dividing user entered int numberOne and numberTwo
-                Console.WriteLine(numberOne + "divided by " + numberTwo + "equals " + numberThree); // displaying the above math
+
+                List<int> numbers = new List<int>() { 100, 50, 500, 70, 10, 7000, };
+
+                Console.WriteLine("You are dividing the list by: " + numberOne);
+                foreach (int number in numbers)
+                {
+                    Console.WriteLine(number / numberOne);
+                }
                 Console.ReadLine();
             }
             catch (FormatException ex) // catch for non int entry
@@ -32,8 +37,11 @@ namespace exceptionHandling
             }
             finally 
             {
+                Console.WriteLine("Thank you for your input! You may now leave the console, Goodbye.");
                 Console.ReadLine(); //readline to allow user to read error without console ending abruptly 
             }
+
+            
         }
     }
 }
