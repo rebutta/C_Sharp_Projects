@@ -26,14 +26,14 @@ namespace _6partApp
             }
             for (int j = 0; j < Options.Length; j++)
             {
-                Console.WriteLine(Options[j]); 
+                Console.WriteLine(Options[j]);
             }
             Console.ReadLine();
 
             //
             //while (true)
             //{
-                
+
             //}
             //
 
@@ -76,6 +76,7 @@ namespace _6partApp
 
             // 
 
+            Console.WriteLine("How would you like for your items packaged?");
             List<string> packaging = new List<string>();
             packaging.Add("Wrapped ");
             packaging.Add("Bagged ");
@@ -87,16 +88,28 @@ namespace _6partApp
                 if (packaging[i] == customerStyle)
                 {
                     Console.WriteLine("You chose style at index: " + i);
-                    styleFound = true;                    
+                    styleFound = true;
                 }
             }
             if (!styleFound) { Console.WriteLine("That is not a style we serve"); }
             Console.ReadLine();
 
+
             List<string> theList = new List<string>();
 
-            foreach (string )
-
+            foreach (string item in packaging)
+            {
+                if (theList.Contains(item))
+                {
+                    Console.WriteLine(item + " is duplicate");
+                }
+                else
+                {
+                    Console.WriteLine(item);
+                    theList.Add(item);
+                }                                  
+            }
+            Console.ReadLine();
         }
     }
 }
