@@ -22,16 +22,31 @@ namespace _6partApp
             Console.WriteLine("What kind?");
             for (int j = 0; j < Options.Length; j++)
             {
-                Console.WriteLine(Options[j] + customerMeat);
+                Options[j] = Options[j] + customerMeat;
+            }
+            for (int j = 0; j < Options.Length; j++)
+            {
+                Console.WriteLine(Options[j]); 
             }
             Console.ReadLine();
 
+            //
+            //while (true)
+            //{
+                
+            //}
             //
 
             Console.WriteLine("I recommend any with five letters!");
             for (int j = 0; j < Options.Length; j++)
             {
                 Console.WriteLine(Options[j].Length <= 6);
+            }
+            Console.ReadLine();
+
+            for (int i = 0; i <= 5; i++)
+            {
+                Console.WriteLine(i);
             }
             Console.ReadLine();
 
@@ -51,8 +66,9 @@ namespace _6partApp
             {
                 if (butchersFav[i] == customerStyle)
                 {
-                    Console.WriteLine("You chose style: " + butchersFav[i]);
+                    Console.WriteLine("You chose style at index: " + i);
                     styleFound = true;
+                    break;
                 }
             }
             if (!styleFound) { Console.WriteLine("That is not a style we serve"); }
@@ -66,14 +82,20 @@ namespace _6partApp
             packaging.Add("Wrapped ");
             packaging.Add("Wrapped and Bagged ");
 
-            foreach (string package in packaging)
+            for (int i = 0; i < packaging.Count; i++)
             {
-                if (package == "Wrapped ")
+                if (packaging[i] == customerStyle)
                 {
-                    Console.WriteLine(package);
+                    Console.WriteLine("You chose style at index: " + i);
+                    styleFound = true;                    
                 }
             }
+            if (!styleFound) { Console.WriteLine("That is not a style we serve"); }
             Console.ReadLine();
+
+            List<string> theList = new List<string>();
+
+            foreach (string )
 
         }
     }
