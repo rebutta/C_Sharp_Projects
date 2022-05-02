@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\exceptionHandling\exceptionHandling\bin\Debug\exceptionHandling.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\exceptionHandling\exceptionHandling\bin\Debug\exceptionHandling.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\exceptionHandling\exceptionHandling\bin\Debug\exceptionHandling.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\exceptionHandling\exceptionHandling\obj\Debug\exceptionHandling.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\exceptionHandling\exceptionHandling\obj\Debug\exceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\exceptionHandling\exceptionHandling\obj\Debug\exceptionHandling.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\exceptionHandling\exceptionHandling\obj\Debug\exceptionHandling.pdb
