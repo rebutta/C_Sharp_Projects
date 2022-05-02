@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\6partApp\6partApp\bin\Debug\6partApp.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\6partApp\6partApp\bin\Debug\6partApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\6partApp\6partApp\bin\Debug\6partApp.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\6partApp\6partApp\obj\Debug\6partApp.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\6partApp\6partApp\obj\Debug\6partApp.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\6partApp\6partApp\obj\Debug\6partApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\6partApp\6partApp\obj\Debug\6partApp.pdb
