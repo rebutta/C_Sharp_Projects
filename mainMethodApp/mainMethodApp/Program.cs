@@ -18,7 +18,7 @@ namespace mainMethodApp
             Console.WriteLine(integer.methodOne(20.00));
             Console.ReadLine();
 
-            Console.WriteLine(integer.methodOne("Two"));
+            Console.WriteLine(integer.methodOne("8"));
             Console.ReadLine();
         }
     }

@@ -20,7 +20,7 @@ namespace mainMethodApp
 
         public string methodOne(string z)
         {
-            Convert.ToString(z);
+            Convert.ToInt32(z);
             return 8 + z;
         }
     }
