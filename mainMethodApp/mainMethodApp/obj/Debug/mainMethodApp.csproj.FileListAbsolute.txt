@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\mainMethodApp\mainMethodApp\bin\Debug\mainMethodApp.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\mainMethodApp\mainMethodApp\bin\Debug\mainMethodApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\mainMethodApp\mainMethodApp\bin\Debug\mainMethodApp.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\mainMethodApp\mainMethodApp\obj\Debug\mainMethodApp.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\mainMethodApp\mainMethodApp\obj\Debug\mainMethodApp.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\mainMethodApp\mainMethodApp\obj\Debug\mainMethodApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\mainMethodApp\mainMethodApp\obj\Debug\mainMethodApp.pdb

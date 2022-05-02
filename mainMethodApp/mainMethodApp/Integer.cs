@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace mainMethodApp
 {
-    class Integer
+    public class Integer
     {
+        public int methodOne(int x)
+        {
+            return 5 + x;
+        }
+
+        public double methodOne(double g)
+        {
+            return 5.5 + g; 
+        }
+
+        public string methodOne(string z)
+        {
+            Convert.ToString(z);
+            return 8 + z;
+        }
     }
 }

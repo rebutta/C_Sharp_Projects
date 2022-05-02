@@ -12,7 +12,14 @@ namespace mainMethodApp
         {
             Integer integer = new Integer(); //creates a new object from the class Integer
 
-            Console.WriteLine(integer.methodOne + 10);
+            Console.WriteLine(integer.methodOne(10));
+            Console.ReadLine();
+
+            Console.WriteLine(integer.methodOne(20.00));
+            Console.ReadLine();
+
+            Console.WriteLine(integer.methodOne("Two"));
+            Console.ReadLine();
         }
     }
 }

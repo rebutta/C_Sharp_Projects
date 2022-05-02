@@ -33,7 +33,7 @@ namespace _6partApp
             //
             //while (true)
             //{
-
+                //Console.WriteLine("I'm a infinite loop!");
             //}
             //
 
@@ -76,7 +76,8 @@ namespace _6partApp
 
             // 
 
-            Console.WriteLine("How would you like for your items packaged?");
+            Console.WriteLine("How would you like for your items to be packaged?");
+            string customerPack = Console.ReadLine();
             List<string> packaging = new List<string>();
             packaging.Add("Wrapped ");
             packaging.Add("Bagged ");
@@ -85,9 +86,9 @@ namespace _6partApp
 
             for (int i = 0; i < packaging.Count; i++)
             {
-                if (packaging[i] == customerStyle)
+                if (packaging[i] == customerPack)
                 {
-                    Console.WriteLine("You chose style at index: " + i);
+                    Console.WriteLine("You chose package style at index: " + i);
                     styleFound = true;
                 }
             }
