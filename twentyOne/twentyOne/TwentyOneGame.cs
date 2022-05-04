@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace twentyOne
 {
-    class TwentyOneGame
+    public class TwentyOneGame : Game
     {
+        public override void Play()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void ListPlayers()
+        {
+            Console.WriteLine("Welcome 21 Players");
+            base.ListPlayers();
+        }
     }
 }
