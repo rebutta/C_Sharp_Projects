@@ -10,15 +10,9 @@ namespace twentyOne
     {
         static void Main(string[] args)
         {
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game = game + player;
-            game = game - player;
-
+            
             Deck deck = new Deck();             //creates object from class Deck called deck
-            deck.Shuffle(3);             //calls on method Shuffle(singular)
+            deck.Shuffle(3);             //calls on method Shuffle from deck class
 
             foreach (Card card in deck.Cards)           //foreach statment selecting each card 
             {
@@ -26,17 +20,8 @@ namespace twentyOne
             }
             Console.WriteLine(deck.Cards.Count);            //displays the number of cards in the deck (52)
             Console.ReadLine();
+
+
         }
-
-        
-
-        //public static Deck Shuffle(Deck deck, int times) //example of overload method
-        //{
-        //    for (int i = 0; i < times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck;
-        //}
     }
 }

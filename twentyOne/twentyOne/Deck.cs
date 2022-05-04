@@ -11,20 +11,14 @@ namespace twentyOne
         public Deck()
         {
             Cards = new List<Card>();
-            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
-            List<string> Faces = new List<string>()
-            {
-                "Two", "Three", "Four", "Five", "Six", "Seven",
-                "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
-            };
 
-            foreach (string face in Faces)
+            for (int i = 0; i < 13; i++)
             {
-                foreach (string suit in Suits)
+                for (int j = 0; j < 4; j++)
                 {
                     Card card = new Card();
-                    card.Suit = suit;
-                    card.Face = face;
+                    card.Face = (Face)i;
+                    card.Suit = (Suit)j;
                     Cards.Add(card);
                 }
             }
@@ -36,16 +30,16 @@ namespace twentyOne
         {
             for (int i = 0; i < times; i++)
             {
-                List<Card> tempList = new List<Card>(); //creating and naming new list to tempList
-                Random random = new Random(); //creating and naming new Random to random
+                List<Card> tempList = new List<Card>();             //creating and naming new list to tempList
+                Random random = new Random();           //creating and naming new Random to random
 
-                while (Cards.Count > 0) //while deck is greater than zero it will do whats in the curly brackets
+                while (Cards.Count > 0)             //while deck is greater than zero it will do whats in the curly brackets
                 {
-                    int randomIndex = random.Next(0, Cards.Count); //created int (randomIndex) that randomly grabs a card from deck and takes that value
-                    tempList.Add(Cards[randomIndex]); //places card value from randomIndex in tempList
-                    Cards.RemoveAt(randomIndex); //removes card value from deck based on randomIndex
+                    int randomIndex = random.Next(0, Cards.Count);          //created int (randomIndex) that randomly grabs a card from deck and takes that value
+                    tempList.Add(Cards[randomIndex]);           //places card value from randomIndex in tempList
+                    Cards.RemoveAt(randomIndex);            //removes card value from deck based on randomIndex
                 }
-                Cards = tempList; //sets deck equal to tempList
+                Cards = tempList;           //sets deck equal to tempList
             }
         }
     }
