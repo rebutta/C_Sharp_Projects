@@ -11,6 +11,7 @@ namespace abstractClass
         public override void SayName()
         {
             Console.WriteLine("Employee Information:");
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
             base.SayName();
         }
     }
