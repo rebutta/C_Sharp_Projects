@@ -16,6 +16,12 @@ namespace abstractClass
 
             employee.SayName();
             Console.ReadLine();
+
+
+            // Polymorphism Submission
+            IQuittable quit = new Employee();
+            quit.Quit(employee);
+            Console.ReadLine();
         }
     }
 }
