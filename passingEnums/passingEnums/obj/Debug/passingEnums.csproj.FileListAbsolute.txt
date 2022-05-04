@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\passingEnums\passingEnums\bin\Debug\passingEnums.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\passingEnums\passingEnums\bin\Debug\passingEnums.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\passingEnums\passingEnums\bin\Debug\passingEnums.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\passingEnums\passingEnums\obj\Debug\passingEnums.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\passingEnums\passingEnums\obj\Debug\passingEnums.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\passingEnums\passingEnums\obj\Debug\passingEnums.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\passingEnums\passingEnums\obj\Debug\passingEnums.pdb
