@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\lambdaConsoleApp\lambdaConsoleApp\bin\Debug\lambdaConsoleApp.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\lambdaConsoleApp\lambdaConsoleApp\bin\Debug\lambdaConsoleApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\lambdaConsoleApp\lambdaConsoleApp\bin\Debug\lambdaConsoleApp.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\lambdaConsoleApp\lambdaConsoleApp\obj\Debug\lambdaConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\lambdaConsoleApp\lambdaConsoleApp\obj\Debug\lambdaConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\lambdaConsoleApp\lambdaConsoleApp\obj\Debug\lambdaConsoleApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\lambdaConsoleApp\lambdaConsoleApp\obj\Debug\lambdaConsoleApp.pdb
