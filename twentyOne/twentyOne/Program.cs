@@ -11,26 +11,27 @@ namespace twentyOne
         static void Main(string[] args)
         {
 
-            Deck deck = new Deck();             //creates object from class Deck called deck
-
-            List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
-            foreach (Card card in newList)
+            Console.WriteLine("Welcome to the the Grand Hotel and Casino. Let's start by telling me your name.");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 Right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" ||answer == "yeah" || answer == "y" || answer == "ya" || answer == "sure")
             {
-                Console.WriteLine(card.Face);
+                Player player = new Player(playerName, bank);
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
             }
-            
-
-
-            //deck.Shuffle(3);             //calls on method Shuffle from deck class
-
-            //foreach (Card card in deck.Cards)           //foreach statment selecting each card 
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);          //displays each card with face and suit
-            //}
-            //Console.WriteLine(deck.Cards.Count);            //displays the number of cards in the deck (52)
+            Console.WriteLine("Feel free to look around the Casino. Bye for now.");
             Console.ReadLine();
-
-
         }
     }
 }
