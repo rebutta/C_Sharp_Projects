@@ -5,3 +5,6 @@ C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\twentyOne\bin\Debug\t
 C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\twentyOne\bin\Debug\twentyOne.pdb
 C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\twentyOne\obj\Debug\twentyOne.exe
 C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\twentyOne\obj\Debug\twentyOne.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\twentyOne\obj\Debug\twentyOne.csproj.CopyComplete
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\twentyOne\bin\Debug\TheCasino.dll
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\twentyOne\bin\Debug\TheCasino.pdb

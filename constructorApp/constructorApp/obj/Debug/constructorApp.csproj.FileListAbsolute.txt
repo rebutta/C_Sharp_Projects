@@ -1,0 +1,7 @@
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\constructorApp\constructorApp\bin\Debug\constructorApp.exe.config
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\constructorApp\constructorApp\bin\Debug\constructorApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\constructorApp\constructorApp\bin\Debug\constructorApp.pdb
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\constructorApp\constructorApp\obj\Debug\constructorApp.csproj.AssemblyReference.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\constructorApp\constructorApp\obj\Debug\constructorApp.csproj.CoreCompileInputs.cache
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\constructorApp\constructorApp\obj\Debug\constructorApp.exe
+C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\constructorApp\constructorApp\obj\Debug\constructorApp.pdb

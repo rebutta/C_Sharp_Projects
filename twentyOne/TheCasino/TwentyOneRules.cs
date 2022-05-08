@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace twentyOne
+namespace TheCasino.twentyOne
 {
     public class TwentyOneRules
     {

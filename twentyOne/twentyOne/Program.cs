@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
+using TheCasino;
+using TheCasino.twentyOne;
 
 namespace twentyOne
 {
@@ -11,8 +9,8 @@ namespace twentyOne
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Welcome to the the Grand Hotel and Casino. Let's start by telling me your name.");
+            const string casinoName = "Grand Hotel and Casino";
+            Console.WriteLine("Welcome to the the {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
@@ -21,7 +19,12 @@ namespace twentyOne
             if (answer == "yes" ||answer == "yeah" || answer == "y" || answer == "ya" || answer == "sure")
             {
                 Player player = new Player(playerName, bank);
-                Game game = new TwentyOneGame();
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Oconn\Documents\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
+                Game game = new TheCasino.twentyOne.TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance > 0)

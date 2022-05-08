@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace twentyOne
+namespace TheCasino
 {
-    class parameter<T>
+    interface IWalkAway
     {
-        public List<T> things { get; set; }
+        void WalkAway(Player player);
     }
 }

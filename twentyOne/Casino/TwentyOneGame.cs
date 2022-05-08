@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace twentyOne
+namespace Casino.twentyOne
 {
-    public class TwentyOneGame : Game, IWalkAway
+    public class TwentyOneGame : Game
     {
         public TwentyOneDealer Dealer { get; set; }
         public override void Play()
@@ -167,11 +167,6 @@ namespace twentyOne
         {
             Console.WriteLine("21 Players");
             base.ListPlayers();
-        }
-
-        public void WalkAway(Player player)
-        {
-            throw new NotImplementedException();
         }
     }
 }
