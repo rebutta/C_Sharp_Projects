@@ -16,7 +16,9 @@ namespace constructorApp
 
             Console.WriteLine(example1 + example2);
 
-            NewEmployee employee1 = new NewEmployee("Billy", "Bob");
+            NewEmployee employee1 = new NewEmployee();
+            Console.ReadLine();
+            NewEmployee employee2 = new NewEmployee("billy", "bob");
             Console.ReadLine();
         }
     }

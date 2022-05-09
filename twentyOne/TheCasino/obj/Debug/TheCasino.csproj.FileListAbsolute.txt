@@ -3,4 +3,3 @@ C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\TheCasino\bin\Debug\T
 C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\TheCasino\obj\Debug\TheCasino.csproj.CoreCompileInputs.cache
 C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\TheCasino\obj\Debug\TheCasino.dll
 C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\TheCasino\obj\Debug\TheCasino.pdb
-C:\Users\Oconn\Documents\GitHub\C_Sharp_Projects\twentyOne\TheCasino\obj\Debug\TheCasino.csproj.AssemblyReference.cache
