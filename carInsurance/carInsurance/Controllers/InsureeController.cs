@@ -56,16 +56,18 @@ namespace carInsurance.Controllers
                 {
                     insuree.Quote += 100m;
                 }
-                DateTime age19 = new DateTime(5 / 12 / 2003);
-                DateTime age25 = new DateTime(5 / 12 / 1997);
-                if (insuree.DateOfBirth > age19) //c
+
+                decimal userAge = Convert.ToDecimal(DateTime.Now.Year - insuree.DateOfBirth.Year);
+                //DateTime age19 = new DateTime(5 / 12 / 2003);
+                //DateTime age25 = new DateTime(5 / 12 / 1997);
+                if (userAge > 19) //c
                 {
-                    if (insuree.DateOfBirth < age25)
+                    if (userAge < 25)
                     {
                         insuree.Quote += 50m;
                     }
                 }
-                if (insuree.DateOfBirth > age25) //d
+                if (userAge > 25) //d
                 {
                     insuree.Quote += 25m;
                 }
