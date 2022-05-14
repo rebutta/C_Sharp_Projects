@@ -50,14 +50,14 @@ namespace carInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                int userAge = Convert.ToInt32(DateTime.Now.Year - insuree.DateOfBirth.Year);
                 insuree.Quote = 50m; // starting quote value ALL ANSWERS HAVE CORRESPONDING LETTER //a
                 DateTime age18 = new DateTime(5 / 12 / 2004); 
-                if (insuree.DateOfBirth <= age18) //b
+                if (userAge <= 18) //b
                 {
                     insuree.Quote += 100m;
                 }
 
-                decimal userAge = Convert.ToDecimal(DateTime.Now.Year - insuree.DateOfBirth.Year);
                 //DateTime age19 = new DateTime(5 / 12 / 2003);
                 //DateTime age25 = new DateTime(5 / 12 / 1997);
                 if (userAge > 19) //c
